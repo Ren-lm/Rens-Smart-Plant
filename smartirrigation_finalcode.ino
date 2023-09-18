@@ -79,8 +79,8 @@ DHT dht(DHT_PIN, DHT_TYPE);
 // WiFi Credentials
 const int MAX_WIFI_RETRIES = 10;  
 const int WIFI_RETRY_DELAY = 1000; 
-const char* ssid = "Digicel_WiFi_gVdj";
-const char* password = "kPT9sAWB";
+const char* ssid = "";
+const char* password = "";
 AsyncWebServer server(80);
 
 // Forward declaration
